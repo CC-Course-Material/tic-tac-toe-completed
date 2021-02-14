@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.root {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+.middle {
+  border: 1px solid black;
+}
+
+.middle-side {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.top-bottom-middle {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.symbol {
+}

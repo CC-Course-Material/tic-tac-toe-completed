@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="root">
+      <h1 id="heading">Player 1's turn</h1>
+      <button onclick="onReset()" style="margin-bottom: 16px">
+        Reset Game
+      </button>
+      <div class="row">
+        <div id="0,0" class="cell" onclick="onCellClick(0, 0)"></div>
+        <div
+          id="0,1"
+          class="cell top-bottom-middle"
+          onclick="onCellClick(0,1)"
+        ></div>
+        <div id="0,2" class="cell" onclick="onCellClick(0,2)"></div>
+      </div>
+      <div class="row">
+        <div id="1,0" class="cell middle-side" onclick="onCellClick(1,0)"></div>
+        <div id="1,1" class="cell middle" onclick="onCellClick(1,1)"></div>
+        <div id="1,2" class="cell middle-side" onclick="onCellClick(1,2)"></div>
+      </div>
+      <div class="row">
+        <div id="2,0" class="cell" onclick="onCellClick(2,0)"></div>
+        <div
+          id="2,1"
+          class="cell top-bottom-middle"
+          onclick="onCellClick(2,1)"
+        ></div>
+        <div id="2,2" class="cell" onclick="onCellClick(2,2)"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
